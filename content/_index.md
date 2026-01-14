@@ -17,7 +17,7 @@ re:Director gives you full control over your domain traffic.
 Set up smart, reliable redirects with minimal setup.  
 Perfect for marketing, rebranding, or managing multiple sites from one place. 
 
-{{<button href="https://github.com/re-Director/re-director">}}Get Started{{</button>}}
+{{<button href="/docs/about">}}Get Started{{</button>}}
 
 </div>
 

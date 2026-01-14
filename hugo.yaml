@@ -72,12 +72,9 @@ menu:
 
   # before: []
   after:
-    - name: "Showcase"
-      pageRef: "/showcase/"
-      weight: 10
     - name: "Github"
       url: "https://github.com/re-Director/re-director"
-      weight: 20
+      weight: 100
 
 taxonomies:
   tag: tags
@@ -85,7 +82,7 @@ taxonomies:
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme: "light"
+  BookTheme: "auto"
 
   # (Optional, default none) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.

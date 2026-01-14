@@ -1,6 +1,6 @@
 ---
 menu:
   after:
-    weight: 5
+    weight: 99
 title: Blog
 ---

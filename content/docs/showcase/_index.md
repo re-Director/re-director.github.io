@@ -1,6 +1,6 @@
 ---
-title: re:Director -  Manage Redirects Like a Pro 
-layout: landing
+weight: 98
+title: Showcase
 ---
 
 # Showcase
