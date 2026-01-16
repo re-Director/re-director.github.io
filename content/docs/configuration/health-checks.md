@@ -5,7 +5,7 @@ title: Health Checks
 
 # Health Checks
 
-Re:Director uses [Spring Actuator](https://docs.spring.io/spring-boot/how-to/actuator.html) to do health checks.
+re:Director uses [Spring Actuator](https://docs.spring.io/spring-boot/how-to/actuator.html) to do health checks.
   
 The following checks are available.
 - overall health: `/actuator/health`

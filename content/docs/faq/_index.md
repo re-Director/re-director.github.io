@@ -20,8 +20,9 @@ You can either run it from sources or using the provided Docker container. There
 
 ## My redirect is not working!
 
-There might be multiple reasons. 
-dns entry
+There might be multiple reasons.  
+One reason might be a missing DNS entry to wherever re:Director is hosted. You can check DNS entries using dig, either installed on you machine or using a [web app](https://www.digwebinterface.com/).  
+Also make sure that the domain specified in the DNS entry and as a source in re:Director actually match.
 
 # Why not use a reverse proxy?
 

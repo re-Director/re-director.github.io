@@ -5,7 +5,7 @@ title: Caching
 
 # Caching
 
-To keep the latency that Re:Director introduces as small as possible, caching is implemented.
+To keep the latency that re:Director introduces as small as possible, caching is implemented.
 
 ## Manually clear Caches
 

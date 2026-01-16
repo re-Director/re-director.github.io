@@ -14,3 +14,14 @@ I was self hosting my applications behind Traefik reverse proxy and defined the 
 I also tried out different URL shorteners, but they were either difficult to set up or where doing so many more things.
 
 I wanted something simpler to manage my redirects, with a Web UI. I am a developer by day, so I just wrote one myself.
+
+## Use-Cases
+
+I am not good at remembering long paths, ports or similar. So this tool makes it a lot easier for me to remember URLs by giving them a shorter alternative.
+
+Instead of typing `http://pihole/admin` I just type `adblock.internal`.  
+Instead of typing `https://unifi:11443 ` I just type `unifi.internal`.  
+Instead of typing `http://plex:32400/web/index.html#!` I just type `plex.internal`.  
+re:Director will then redirect me to the longer URL.
+
+As you see it helps with URLs that contain ports, long paths, query parameters or any other things that you might find in a URL.
