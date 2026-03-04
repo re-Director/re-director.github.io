@@ -1,5 +1,5 @@
 ---
-title: re:Director -  Manage Redirects Like a Pro 
+title: re:Director - Manage Redirects Like a Pro 
 layout: landing
 ---
 

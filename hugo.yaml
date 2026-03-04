@@ -53,22 +53,22 @@ enableGitInfo: true
 #     weight: 2
 
 menu:
-#  home:
-#    - name: "Home"
-#      pageRef: "/"
-#      weight: 10
-#    - name: "Showcase"
-#      pageRef: "/showcase/"
-#      weight: 20
-#    - name: "Documentation"
-#      pageRef: "/docs/"
-#      weight: 30
-#    - name: "Blog"
-#      pageRef: "/posts/"
-#      weight: 40
-#    - name: "Github"
-#      url: "https://github.com/re-Director/re-director"
-#      weight: 50
+  home:
+    - name: "Home"
+      pageRef: "/"
+      weight: 10
+    - name: "Showcase"
+      pageRef: "/docs/showcase/"
+      weight: 20
+    - name: "Documentation"
+      pageRef: "/docs/about"
+      weight: 30
+    - name: "Blog"
+      pageRef: "/posts/"
+      weight: 40
+    - name: "Github"
+      url: "https://github.com/re-Director/re-director"
+      weight: 50
 
   # before: []
   after:

@@ -36,7 +36,3 @@ services:
 volumes:
   re-director-data:
 ```
-
-## Nginx
-
-If you already use Nginx I would recommend against using re:Director and use [Nginx Proxy Manager (NPM)](https://nginxproxymanager.com/) instead.
