@@ -20,7 +20,7 @@ I wanted something simpler to manage my redirects, with a Web UI. I am a develop
 I am not good at remembering long paths, ports or similar. So this tool makes it a lot easier for me to remember URLs by giving them a shorter alternative.
 
 Instead of typing `http://pihole/admin` I just type `adblock.internal`.  
-Instead of typing `https://unifi:11443 ` I just type `unifi.internal`.  
+Instead of typing `https://unifi:11443` I just type `unifi.internal`.  
 Instead of typing `http://plex:32400/web/index.html#!` I just type `plex.internal`.  
 re:Director will then redirect me to the longer URL.
 

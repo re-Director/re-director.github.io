@@ -23,4 +23,4 @@ When the application is healthy a JSON like this is returned
 Possible results for the status attribute are:
 - `UP`
 - `DOWN`
-- `OUT_OF_SERVICE
+- `OUT_OF_SERVICE`

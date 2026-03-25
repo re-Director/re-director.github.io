@@ -15,13 +15,13 @@ Another way to get the logs is the [docker logs command](https://docs.docker.com
 ## Log Levels
 
 You can raise the logging level by setting the following environment variable: `LOGGING_LEVEL_ROOT`. The following levels are allowed:
-- `TRACE`
-- `DEBUG`
-- `INFO`
-- `WARN`
 - `ERROR`
+- `WARN`
+- `INFO`
+- `DEBUG`
+- `TRACE`
 
-Here the severity is ordered from low to high.
+Here the severity is ordered from high to low.
 By choosing a higher severity, lower severity logs will not be logged, e.g. the level `ERROR` will only print error logs. The lower ones will include the higher level severities.
 
 The default level is `WARN`.
