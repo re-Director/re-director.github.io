@@ -4,7 +4,7 @@ tags: [release]
 title: Version 0.0.5 released
 type: posts
 ---
-The following chenges were introduced with the new release:
+The following changes were introduced with the new release:
 
 - add default error page and custom page for 404 and 403
 - enable caching for smaller latency

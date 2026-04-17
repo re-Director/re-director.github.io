@@ -23,7 +23,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
 
   re-director:
-    image: jensknipper/re-director:0.0.6
+    image: jensknipper/re-director:0.0.8
     expose:
       - 80
     volumes:

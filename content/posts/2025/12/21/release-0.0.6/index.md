@@ -4,7 +4,7 @@ tags: [release]
 title: Version 0.0.6 released
 type: posts
 ---
-The following chenges were introduced with the new release:
+The following changes were introduced with the new release:
 
 - some minor bug fixes
 - URL is now updated when opening a modal
