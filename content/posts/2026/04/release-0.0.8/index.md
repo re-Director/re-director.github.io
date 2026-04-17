@@ -1,7 +1,7 @@
 ---
-date: 2026-03-25
+date: 2026-04-17
 tags: [release]
-title: Version 0.0.7 released
+title: Version 0.0.8 released
 type: posts
 ---
 The following changes were introduced with the new release:
