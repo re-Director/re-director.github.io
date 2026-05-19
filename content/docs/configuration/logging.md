@@ -14,7 +14,10 @@ Another way to get the logs is the [docker logs command](https://docs.docker.com
 
 ## Log Levels
 
-You can raise the logging level by setting the following environment variable: `LOGGING_LEVEL_ROOT`. The following levels are allowed:
+You can raise the logging level by setting the following environment variable: `LOGGING_LEVEL_ROOT`. This may cause a lot of noise on lower levels, as it logs all the framework specific logs as well.  
+For raising only the level of re:Director specific logs, use the environment variable: `LOGGING_LEVEL_DE_JENSKNIPPER_REDIRECTOR`.
+
+The following levels are allowed:
 - `ERROR`
 - `WARN`
 - `INFO`
