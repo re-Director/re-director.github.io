@@ -14,6 +14,7 @@ You might have quite a few applications running behind a reverse proxy. The conf
 services:
   traefik:
     image: traefik:v3.4
+    restart: unless-stopped
     command:
       - "--providers.docker"
       - "--entrypoints.web.address=:80"
@@ -23,7 +24,8 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
 
   re-director:
-    image: jensknipper/re-director:0.0.8
+    image: jensknipper/re-director:0.0.10
+    restart: unless-stopped
     expose:
       - 80
     volumes:
