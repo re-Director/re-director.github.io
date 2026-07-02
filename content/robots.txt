@@ -1,1 +1,1 @@
-Sitemap: https://re-director.github.io/sitemap.xml
+Sitemap: https://re-director.github.io/sitemap-2.xml
