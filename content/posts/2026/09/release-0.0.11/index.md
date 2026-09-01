@@ -8,10 +8,10 @@ type: posts
 * add ability to secure re:Director using basic authentication
   * the feature is not 100% mature, so it is advised to not use it for public faced instances
   * for now disabled by default
-  * can enabled by environment variable: `RE_DIRECTOR_AUTH_ENABLED=true`
+  * can enabled by environment variable: `RE_DIRECTOR_AUTH_ENABLED: true`
 * you can now configure a base URL for re:Director
   *  that way a missing or disabled redirects will show a certain page
-  * just set the following environment variable `RE_DIRECTOR_BASE_URL=http://re-director.internal`
+  * just set the following environment variable `RE_DIRECTOR_BASE_URL: http://re-director.internal`
 * only show error details to logged in users
 * fixed that error pages were not shown
 * fixed some possible DNS timing vulnerability in the test redirects feature
