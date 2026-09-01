@@ -13,7 +13,7 @@ docker run \
   --name re-director \
   -p 80:80 \
   -v re-director-data:/data \
-  jensknipper/re-director:0.0.10
+  jensknipper/re-director:0.0.11
 ```
 
 ## Docker Compose
@@ -24,7 +24,7 @@ Simply save the following code into a `docker-compose.yml` file and run `docker-
 ```yaml
 services:
   re-director:
-    image: jensknipper/re-director:0.0.10
+    image: jensknipper/re-director:0.0.11
     restart: unless-stopped
     ports:
       - "80:80"
