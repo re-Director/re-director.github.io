@@ -1,5 +1,5 @@
 ---
-weight: 5
+weight: 8
 title: FAQ
 ---
 
@@ -22,7 +22,8 @@ You can either run it from sources or using the provided Docker container. There
 
 There might be multiple reasons.  
 One reason might be a missing DNS entry to wherever re:Director is hosted. You can check DNS entries using dig, either installed on you machine or using a [web app](https://www.digwebinterface.com/).  
-Also make sure that the domain specified in the DNS entry and as a source in re:Director actually match.
+Also make sure that the domain specified in the DNS entry and as a source in re:Director actually match.  
+The further inspect the issue you may use the [redirect testing tool](/docs/features/test-redirects/) of re:Director.
 
 ## Why not use a reverse proxy?
 
@@ -34,4 +35,8 @@ In the end it's just a tool for your own comfort. Got only one or two redirects,
 
 ## Why not use a URL shortener?
 
-A URL shortener usually has many more features that you do not need. Additionally they often do not provide the features you need, or only with caveats. Many of the selfhosting applications are also difficult to set up.
+A URL shortener usually has many more features that you do not need. Additionally they often do not provide the features you need, or only with caveats. Many of the selfhosting applications are also difficult to set up, e.g. because they have additional dependencies.  
+With re:Director you can keep your original URLs, instead of replacing it with the one the shortener provides.
+
+## Why not use Nginx Proxy Manager (NPM)
+Additional to the features NPM provides, re:Director gives you analytics, finer control over your redirects, the ability to test your redirects and many more.

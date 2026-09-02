@@ -1,6 +1,7 @@
 ---
 weight: 98
 title: Showcase
+bookHidden: true
 ---
 
 # Showcase

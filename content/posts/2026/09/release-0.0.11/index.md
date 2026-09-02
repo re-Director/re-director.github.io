@@ -19,4 +19,6 @@ type: posts
 * prepare analytics feature - hits are now logged to the backend
 * handle trailing slashes in request URLs by @steven-s-martins in https://github.com/re-Director/re-director/pull/14
 
-**Full Changelog**: https://github.com/re-Director/re-director/compare/0.0.10...0.0.11
+Check out the release on [GitHub](https://github.com/re-Director/re-director/releases/tag/0.0.11).
+
+Get it on [Docker Hub](https://hub.docker.com/layers/jensknipper/re-director/0.0.11/).

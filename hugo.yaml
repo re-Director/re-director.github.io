@@ -57,12 +57,12 @@ enableGitInfo: true
 
 menu:
   home:
-    - name: "Home"
-      pageRef: "/"
-      weight: 10
-    - name: "Showcase"
-      pageRef: "/docs/showcase/"
-      weight: 20
+#    - name: "Home"
+#      pageRef: "/"
+#      weight: 10
+#    - name: "Showcase"
+#      pageRef: "/docs/showcase/"
+#      weight: 20
     - name: "Documentation"
       pageRef: "/docs/about"
       weight: 30
