@@ -15,7 +15,7 @@ module:
     path: 'github.com/alex-shpak/hugo-book'
 
 sitemap:
-  filename: sitemap-2.xml
+  filename: sitemap.xml
 
 # Needed for mermaid/katex shortcodes
 markup:

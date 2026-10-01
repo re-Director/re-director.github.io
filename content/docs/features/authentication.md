@@ -6,7 +6,7 @@ title: Authentication
 # Authentication
 
 Currently authentication is not fully mature. It is advised to not use it for public faced instances.  
-Because of that it is for now disabled by default, but might be enabled in a future version.
+Because of that, it is for now disabled by default, but might be enabled in a future version.
 
 It can be enabled using an environment variable: `RE_DIRECTOR_AUTH_ENABLED=true`
 
