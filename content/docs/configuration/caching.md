@@ -14,3 +14,7 @@ You can clear the Caches manually in the settings.
 ## Deactivate Caching
 
 Set the environment variable `SPRING_CACHE_TYPE=none`
+
+### Example Configuration
+
+You can check out an example configuration [here](https://github.com/re-Director/re-director/blob/master/docker/docker-compose-full.yml)

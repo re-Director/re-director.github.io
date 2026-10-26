@@ -13,8 +13,10 @@ You might have quite a few applications running behind a reverse proxy. The conf
 ```yaml
 services:
   traefik:
-    image: traefik:v3.4
+    image: traefik:v3.6
     restart: unless-stopped
+    environment:
+      SERVER_FORWARD_HEADERS_STRATEGY: native
     command:
       - "--providers.docker"
       - "--entrypoints.web.address=:80"

@@ -28,3 +28,7 @@ Here the severity is ordered from high to low.
 By choosing a higher severity, lower severity logs will not be logged, e.g. the level `ERROR` will only print error logs. The lower ones will include the higher level severities.
 
 The default level is `WARN`.
+
+### Example Configuration
+
+You can check out an example configuration [here](https://github.com/re-Director/re-director/blob/master/docker/docker-compose-full.yml)

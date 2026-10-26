@@ -24,3 +24,7 @@ Possible results for the status attribute are:
 - `UP`
 - `DOWN`
 - `OUT_OF_SERVICE`
+
+## Example Configuration
+
+You can check out an example configuration [here](https://github.com/re-Director/re-director/blob/master/docker/docker-compose-full.yml)
