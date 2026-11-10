@@ -5,14 +5,14 @@ title: Authentication
 
 # Authentication
 
-Currently authentication is not fully mature. It is advised to not use it for public faced instances.  
-Because of that, it is for now disabled by default, but might be enabled in a future version.
-
-It can be enabled manually using an environment variable: `RE_DIRECTOR_AUTH_ENABLED=true`
+Authentication is enabled by default.  
+It can be disabled manually using an environment variable: `RE_DIRECTOR_AUTH_ENABLED=false`.  
+You can also set the minimum required password length: `RE_DIRECTOR_AUTH_PASSWORD_MIN_LENGTH=8`
 
 ## Initial User Setup
 
-With authentication enabled you are prompted to create a user and a password at the first login. Afterwards you are redirected to the login.
+With authentication enabled you are prompted to create a user and a password at the first login. The minimum required passeord lenght is eight characters.  
+Afterwards creating a user, you are redirected to the login.
 
 {{< image src="/screenshots/initial-user-setup-0.0.11.png" alt="user setup" loading="lazy" >}}
 

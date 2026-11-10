@@ -1,0 +1,26 @@
+---
+date: 2026-09-01
+tags: [release]
+title: Version 0.0.11 released
+type: posts
+---
+
+
+## Changes:
+
+- implemented rate limits on login
+- rename base package to make the adjustment of logging work
+- added password validation with min length check
+- minor performance tweaks 
+  - lowered JDBC max pool size 
+  - enabled virtual threads
+- minor security fixes
+  - removed cacheing of null results to avoid cache poisoning
+  - added check to avoid that target and source cannot be the base url (cyclic redirects)
+	
+## Breaking Changes:
+
+- authentication is now active by default
+
+
+**Full Changelog**: https://github.com/re-Director/re-director/compare/0.0.11...v0.1.0
